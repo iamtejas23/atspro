@@ -1,9 +1,5 @@
 # add query.sql in gitignore
 
-# Ignore all .sql files
-*.sql
-# Ignore all .sql files in the root directory
-*.sql
-# Ignore all .sql files in the root directory and subdirectories
-*.sql
+query.sql
+
 query.sql
