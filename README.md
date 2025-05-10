@@ -69,8 +69,8 @@ CREATE TABLE resumes (
 ### Create MySQL User (Optional)
 
 ```sql
-CREATE USER 'devuser'@'localhost' IDENTIFIED BY 'devpass123';
-GRANT ALL PRIVILEGES ON ats_scanner.* TO 'devuser'@'localhost';
+CREATE USER 'root'@'localhost' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES ON ats_scanner.* TO 'root'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
